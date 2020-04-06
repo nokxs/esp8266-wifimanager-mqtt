@@ -18,7 +18,7 @@ struct WifiSettings {
 struct MqttSettings {
   char clientId[20] = "ESP8266Client";
   char hostname[40] = "192.168.178.49";
-  char port[6] = "1833";
+  char port[6] = "1883";
   char user[20];
   char password[20];
   char wm_mqtt_client_id_identifier[15] = "mqtt_client_id";
